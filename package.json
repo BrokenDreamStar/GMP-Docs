@@ -1,0 +1,15 @@
+{
+  "name": "gmp-docs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "less": "^4.2.0",
+    "vitepress": "^1.0.1"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
+}
