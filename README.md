@@ -5,7 +5,7 @@ GlobalMarketPlus的文档
 ## 本项目使用[VitePress](https://vitepress.vuejs.org/)
 
 
-## 安装依赖
+### 安装依赖
 需要node v18及以上版本
 ```sh
 npm install
