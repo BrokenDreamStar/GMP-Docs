@@ -21,12 +21,12 @@ const zhImgList = ref([
 
 const enImgList = ref([
   { imgName: "globalmarket" },
-  { imgName: "player_auctions" },
+  { imgName: "PlayerAuctions" },
   { imgName: "mailbox" },
   { imgName: "profile" },
   { imgName: "currencies" },
   { imgName: "recorder" },
-  { imgName: "admin_commands" },
+  { imgName: "Admin" },
   { imgName: "customizable" },
 ])
 </script>
