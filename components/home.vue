@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue"
 
-const props = defineProps({
+defineProps({
   lang: {
     type: String,
     required: true,
@@ -38,15 +38,13 @@ const enImgList = ref([
       <img
         v-for="item in zhImgList"
         :key="item.id"
-        :src="`/img/zh/${item.imgName}.webp`"
-        alt="" />
+        :src="`/img/zh/${item.imgName}.webp`" />
     </div>
     <div class="introduce" v-if="lang === 'en'">
       <img
         v-for="item in enImgList"
         :key="item.id"
-        :src="`/img/en/${item.imgName}.webp`"
-        alt="" />
+        :src="`/img/en/${item.imgName}.webp`" />
     </div>
   </div>
 </template>
