@@ -67,13 +67,15 @@ const enImgList = ref([
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: fit-content;
 
     img {
       display: block;
       box-sizing: border-box;
       padding: 0.1875rem;
-      width: fit-content;
+      width: 50%;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
       height: fit-content;
     }
   }
