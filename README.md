@@ -1,4 +1,4 @@
-# gmp-docs
+# GMP-Docs
 
 GlobalMarketPlus的文档
 
