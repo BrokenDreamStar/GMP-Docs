@@ -33,7 +33,7 @@ const enImgList = ref([
 
 <template>
   <div class="container">
-    <img class="title" src="/img/shared/插件介绍.webp" alt="" />
+    <img class="title" src="/img/shared/插件介绍.webp" />
     <div class="introduce" v-if="lang === 'zh'">
       <img
         v-for="item in zhImgList"
